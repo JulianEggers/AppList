@@ -1,0 +1,63 @@
+[
+  {
+    "package": "com.app.name",
+    "type": "AUTO | MANUEL",
+    "website": "www.maju.systems/article.html",
+    "required_android": 9,
+    "required_version_code": 6
+  },
+  {
+    "package": "com.reddit.frontpage",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.google.android.gm",
+    "type": "MANUAL",
+    "website": "https://darkmode.maju.systems/blog/gmail.html"
+  },
+  {
+    "package": "com.android.chrome",
+    "type": "MANUAL",
+    "website": "www.google.de"
+  },
+  {
+    "package": "com.google.android.apps.walletnfcrel",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.android.vending",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.google.android.apps.walletnfcrel",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.google.android.apps.magazines",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.urbandroid.sleep",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.google.android.apps.messaging",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.google.android.keep",
+    "type": "MANUAL"
+  },
+  {
+    "package": "org.telegram.messenger",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.tippingcanoe.mydealz",
+    "type": "MANUAL"
+  },
+  {
+    "package": "com.whatsapp",
+    "type": "MANUAL"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "package": "com.app.name",
+    "type": "AUTO | MANUEL",
+    "website": "www.maju.systems/article.html",
+    "required_android": 9,
+    "required_version_code": 6
+  },
+  {
+    "package": "com.google.android.apps.photos",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.google.android.videos",
+    "type": "AUTO"
+  },
+  {
+    "package": "com.instagram.android",
+    "type": "AUTO",
+    "required_android": 19,
+    "required_version_code": 175574582
+  },
+  {
+    "package": "systems.maju.timer",
+    "type": "AUTO"
+  }
+]
