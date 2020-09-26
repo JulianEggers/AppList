@@ -33,28 +33,68 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed"
             tools:text="TextView" />
+        <TextView
+            android:id="@+id/idView_title"
+            android:textSize="11sp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Version-Code:"
+            app:layout_constraintStart_toStartOf="@+id/nameView"
+            app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+        <TextView
+            android:id="@+id/idView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="1"
+            android:textSize="11sp"
+            app:layout_constraintStart_toEndOf="@+id/idView_title"
+            app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+        <TextView
+            android:id="@+id/idView_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Version:"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@+id/nameView"
+            app:layout_constraintTop_toBottomOf="@+id/idView_title" />
+
+        <TextView
+            android:id="@+id/versionview"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="1.2"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@+id/idView"
+            app:layout_constraintTop_toBottomOf="@+id/idView_title" />
+
+        <TextView
+            android:id="@+id/packageView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:text="Package:"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/nameView"
+            app:layout_constraintTop_toBottomOf="@+id/idView_title2"
+             />
 
         <TextView
             android:id="@+id/packageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:textSize="10sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/nameView"
-            app:layout_constraintTop_toBottomOf="@+id/nameView"
-            tools:text="TextView" />
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@+id/idView"
+            app:layout_constraintTop_toBottomOf="@+id/versionview"
+            tools:text="com.com.com"
+            />
 
-        <TextView
-            android:id="@+id/idView"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="@+id/nameView"
-            app:layout_constraintStart_toEndOf="@+id/nameView"
-            app:layout_constraintTop_toTopOf="@+id/nameView" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>

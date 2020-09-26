@@ -28,7 +28,7 @@ class SupportedAppsFragment : Fragment() {
         view.app_list.apply {
             this@SupportedAppsFragment.context?.let { context ->
                 layoutManager = GridLayoutManager(context, 2)
-                adapter = RecyclerViewAdapter(context, RecyclerViewAdapter.Type.GRID).apply {
+                adapter = RecyclerViewAdapter(context).apply {
 
                     val allApps: MutableList<App> = AppList.getInstalledApps(context)
                     val autoSupportedApps = AppList.getList(context, AppType.AUTO)

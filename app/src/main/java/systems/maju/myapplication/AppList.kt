@@ -19,6 +19,7 @@ data class App(
     val appName: String? = null,
     var website: String? = null,
     var versionCode: Long? = null,
+    var version: String? = null,
     var requiredAndroid: Int? = null,
     var requiredVersionCode: Long? = null
 )
@@ -129,10 +130,11 @@ object AppList {
                     packageName,
                     PackageManager.GET_ACTIVITIES
                 )
+
                 val versionCode = PackageInfoCompat.getLongVersionCode(packageInfo)
 
                 val appItem =
-                    App(packageName = packageName, appName = appName, versionCode = versionCode)
+                    App(packageName = packageName, appName = appName, version = packageInfo.versionName, versionCode = versionCode)
 
                 if (!allApps.contains(appItem))
                     allApps.add(appItem)

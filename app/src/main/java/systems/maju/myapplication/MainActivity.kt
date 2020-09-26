@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         app_list.apply {
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
             layoutManager = LinearLayoutManager(context)
-            adapter = RecyclerViewAdapter(context, RecyclerViewAdapter.Type.LIST).apply {
+            adapter = RecyclerViewAdapter(context).apply {
                 addItems(allApps)
             }
         }
